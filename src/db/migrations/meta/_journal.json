@@ -15,6 +15,13 @@
       "when": 1752065095706,
       "tag": "0001_glossy_doomsday",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752291261641,
+      "tag": "0002_amused_amphibian",
+      "breakpoints": true
     }
   ]
 }
