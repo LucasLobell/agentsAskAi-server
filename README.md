@@ -2,7 +2,7 @@
 
 This is the backend server for **NLW Agents**, providing a REST API for AI-powered Q&A system with audio transcription, vector embeddings, and room management. Built with Node.js, Fastify, PostgreSQL, and Google Gemini AI.
 
-> 📖 **See the [main project](../) for complete project overview and setup instructions.**
+> 📖 **See the [main project](https://github.com/LucasLobell/agentsAskAi-server) for complete project overview and setup instructions.**
 
 ## 🛠️ Tech Stack
 
