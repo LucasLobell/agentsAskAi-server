@@ -1,6 +1,6 @@
-import { audioChunks } from './audio-chunks.ts';
-import { questions } from './questions.ts';
-import { rooms } from './rooms.ts';
+import { audioChunks } from './audio-chunks.js';
+import { questions } from './questions.js';
+import { rooms } from './rooms.js';
 
 export const schema = {
   rooms,
