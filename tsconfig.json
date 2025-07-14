@@ -10,7 +10,6 @@
     ],
     "module": "nodenext",
     "target": "es2022",
-    "allowImportingTsExtensions": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -18,5 +17,8 @@
     "strictNullChecks": true,
     "outDir": "dist",
     "rootDir": "src"
-  }
+  },
+  "exclude": [
+    "drizzle.config.ts"
+  ]
 }
