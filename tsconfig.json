@@ -10,12 +10,13 @@
     ],
     "module": "nodenext",
     "target": "es2022",
-    "noEmit": true,
     "allowImportingTsExtensions": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node16",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "outDir": "dist",
+    "rootDir": "src"
   }
 }
