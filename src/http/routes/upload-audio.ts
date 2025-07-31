@@ -1,8 +1,8 @@
 import type { FastifyPluginCallbackZod } from 'fastify-type-provider-zod';
 import { z } from 'zod/v4';
-import { db } from '../../db/connection.js';
-import { schema } from '../../db/schema/index.js';
-import { generateEmbedding, transcribeAudio } from '../../services/gemini.js';
+import { db } from '../../db/connection';
+import { schema } from '../../db/schema/index';
+import { generateEmbedding, transcribeAudio } from '../../services/gemini';
 
 export const uploadAudioRoute: FastifyPluginCallbackZod = (app) => {
   app.post(

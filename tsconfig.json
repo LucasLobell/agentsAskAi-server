@@ -2,23 +2,16 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "22.0.0",
   "compilerOptions": {
-    "lib": [
-      "es2024",
-      "ESNext.Array",
-      "ESNext.Collection",
-      "ESNext.Iterator"
-    ],
-    "module": "nodenext",
+    "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "target": "es2022",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "node16",
     "strictNullChecks": true,
     "outDir": "dist",
     "rootDir": "src"
   },
-  "exclude": [
-    "drizzle.config.ts"
-  ]
+  "exclude": ["drizzle.config.ts"]
 }
